@@ -142,7 +142,8 @@ to run in port 3001 , you can change the port by editing this file
 
   
 
-There is a suite of unit tests under the **test** directory
+There is a suite of unit tests under the **test** directory. You can run them with the following
+command:
 
 
 &nbsp;
