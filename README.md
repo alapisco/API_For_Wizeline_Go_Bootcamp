@@ -109,6 +109,7 @@ https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
 Before running the application we need to install all the dependencies. You can do this with the following command (execute it from the root directory of this application):
 
+
 &nbsp;
 
   
@@ -116,6 +117,65 @@ Before running the application we need to install all the dependencies. You can 
     npm install  
 
 &nbsp;
+
+### Starting the application
+
+&nbsp;
+
+  
+
+Execute the following command from the application directory.  The included .env file sets the application
+to run in port 3001 , you can change the port by editing this file
+
+
+&nbsp;
+
+  
+
+    npm start  
+
+&nbsp;
+
+### Execute tests
+
+&nbsp;
+
+  
+
+There is a suite of unit tests under the **test** directory
+
+
+&nbsp;
+
+  
+
+    npm test  
+
+&nbsp;
+
+Example output 
+
+&nbsp;
+>     API service is running on port: [3001]
+>     
+>     
+>       Test GET route /api
+>         ✔ It should return a hello world message
+>     
+>       Test GET route /api/activity
+>         ✔ It should return a valid activity if no parameters are provided (246ms)
+>         ✔ It should return an activity for 4 participants (190ms)
+>         ✔ It should return a cooking activity for 3 participants (199ms)
+>         ✔ It should return a social activity (205ms)
+>         ✔ It should return error if invalid activity type provided (186ms)
+>         ✔ It should return error if more than 5 participants requested (182ms)
+>         ✔ It should return error if less than 1 participant requested (183ms)
+>         ✔ It should return an activity ignorring unsupported paremeters (186ms)
+>     
+>     
+>       9 passing (2s) 
+
+
 
 ## API Definition
 
