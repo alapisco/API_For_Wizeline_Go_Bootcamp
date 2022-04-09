@@ -266,7 +266,7 @@ Response
 &nbsp;
 | **Request Parameters** | Description |
 |--|--|
-|**participants**|The number of people that this activity could involve [0, n]|
+|**participants**|The number of people that this activity could involve [1, n]|
 |**type**  |Type of the activity ["education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", "busywork"] |
 
 &nbsp;
