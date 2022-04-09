@@ -1,6 +1,6 @@
-import { config } from 'dotenv'
-config()
+require('dotenv').config()
 
-export default {
-    port: process.env.PORT || 3000
+module.exports = {
+    port: process.env.PORT || 5000 ,
+    activityEndpoint: process.env.ACTIVITY_ENDPOINT || "http://www.boredapi.com/api/activity"
 }
