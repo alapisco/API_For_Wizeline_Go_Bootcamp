@@ -200,7 +200,7 @@ Response
 Get a random activity for one participant
 
 Sample Query: 
-`http://localhost:3000/api`
+`http://localhost:3000/api/activity`
 
 Response
 
